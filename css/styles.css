@@ -12,6 +12,7 @@
     margin-top: 40px;
     color: white;
     position: absolute;
+    font-family: 'Poppins';
     font-weight: bolder;
 }
 
@@ -27,6 +28,7 @@
 .nav-li {
     color: white;
     font-weight: bolder;
+    font-family: 'Poppins';
 }
 
 h2 {
@@ -36,6 +38,7 @@ h2 {
     left: 140px;
     top: 145px;
     font-size: 56px;
+    font-family: 'Poppins';
 }
 
 .header-bottom-text1 {
@@ -46,6 +49,7 @@ h2 {
     left: 140px;
     width: 45px;
     margin-top: 30px;
+    font-family: 'Poppins';
 }
 
 .header-bottom-text2 {
@@ -56,6 +60,7 @@ h2 {
     left: 215px;
     width: 57px;
     margin-top: 30px;
+    font-family: 'Poppins';
 }
 
 .line-div {
@@ -93,14 +98,16 @@ section {
     font-size: 21px;
     font-weight: bold;
     margin-bottom: 25px;
+    font-family: 'Poppins';
 }
 
 .p-text {
     color: black;
     font-size: 50px;
     font-weight: bolder;
-    width: 385px;
+    width: 450px;
     margin-bottom: 65px;
+    font-family: 'Poppins';
 }
 
 .text-form {
@@ -114,6 +121,7 @@ section {
     outline: none;
     resize: none;
     border-width: 2px;
+    font-family: 'Poppins';
 }
 
 
@@ -135,6 +143,7 @@ section {
     border-style: solid;
     border-color: #E8E8E8;
     border-width: 2px;
+    font-family: 'Poppins';
 }
 
 .input-name::placeholder {
@@ -150,6 +159,7 @@ section {
     border-style: solid;
     border-color: #E8E8E8;
     border-width: 2px;
+    font-family: 'Poppins';
 }
 
 .input-surname::placeholder {
@@ -165,6 +175,7 @@ section {
     border-style: solid;
     border-color: #E8E8E8;
     border-width: 2px; 
+    font-family: 'Poppins';
 }
 
 .input-mail::placeholder {
@@ -183,6 +194,7 @@ section {
     background-color: #5863F8;
     border: none;
     font-weight: bold;
+    font-family: 'Poppins';
 }
 
 .input-div {
@@ -222,6 +234,7 @@ section {
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 15px;
+    font-family: 'Poppins';
 }
 
 .contact-text {
@@ -229,6 +242,7 @@ section {
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 5px;
+    font-family: 'Poppins';
 }
 
 .pre-div {
