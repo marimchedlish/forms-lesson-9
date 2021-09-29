@@ -80,3 +80,98 @@ h2 {
     height: 286px;
     margin: 0 auto;
 }
+
+section {
+    width: 1088px;
+    margin: 0 auto;
+    margin-top: 56px;
+
+}
+
+.p-contact {
+    color: #5863F8;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.p-text {
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+    width: 385px;
+    margin-bottom: 65px;
+}
+
+.text-form {
+    width: 720px;
+    height: 288px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: #F8F8F8;
+    border-color: #E8E8E8;
+    color: #CECECE;
+    outline: none;
+    resize: none;
+    border-width: 2px;
+}
+
+
+.text-form::placeholder {
+    color: #CECECE;
+}
+
+.formclass {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-name {
+    width: 352px;
+    height: 60px;
+    background-color: #F8F8F8;   
+    outline: none;
+    padding-left: 10px;
+    border-style: solid;
+    border-color: #E8E8E8;
+    border-width: 2px;
+}
+
+.input-name::placeholder {
+    color: #CECECE;
+}
+
+.input-surname {
+    width: 352px;
+    height: 60px;
+    background-color: #F8F8F8;   
+    outline: none;
+    padding-left: 10px;
+    border-style: solid;
+    border-color: #E8E8E8;
+    border-width: 2px;
+}
+
+.input-surname::placeholder {
+    color: #CECECE;
+}
+
+.input-mail {
+    width: 352px;
+    height: 60px;
+    background-color: #F8F8F8;   
+    outline: none;
+    padding-left: 10px;
+    border-style: solid;
+    border-color: #E8E8E8;
+    border-width: 2px; 
+}
+
+.input-mail::placeholder {
+    color: #CECECE;
+}
+
+.textarea-div {
+    width: 720px;
+    margin-right: 16px;
+}
