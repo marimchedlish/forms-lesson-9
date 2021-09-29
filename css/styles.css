@@ -1,0 +1,82 @@
+.header-div {
+    background-image: url('../images/Group65.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 324px;
+    position: relative;
+}
+
+.p-logo {
+    margin-left: 140px;
+    margin-top: 40px;
+    color: white;
+    position: absolute;
+    font-weight: bolder;
+}
+
+.nav-ul {
+    position: absolute;
+    right: 140px;
+    top: 40px;
+    width: 565px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-li {
+    color: white;
+    font-weight: bolder;
+}
+
+h2 {
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    left: 140px;
+    top: 145px;
+    font-size: 56px;
+}
+
+.header-bottom-text1 {
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 205px;
+    left: 140px;
+    width: 45px;
+    margin-top: 30px;
+}
+
+.header-bottom-text2 {
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 205px;
+    left: 215px;
+    width: 57px;
+    margin-top: 30px;
+}
+
+.line-div {
+    background-color: white;
+    width: 1px;
+    height: 19px;
+    position: absolute;
+    top: 205px;
+    left: 200px;
+    margin-top: 30px;
+}
+
+.map-div {
+    width: 1088px;
+    height: 286px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.map {
+    width: 1088px;
+    height: 286px;
+    margin: 0 auto;
+}
