@@ -95,7 +95,7 @@ section {
 
 .p-contact {
     color: #5863F8;
-    font-size: 21px;
+    font-size: 14px;
     font-weight: bold;
     margin-bottom: 25px;
     font-family: 'Poppins';
@@ -103,11 +103,17 @@ section {
 
 .p-text {
     color: black;
-    font-size: 50px;
+    font-size: 42px;
     font-weight: bolder;
-    width: 450px;
+    width: 568px;
     margin-bottom: 65px;
     font-family: 'Poppins';
+}
+
+
+.pp {
+
+    width: 380px;
 }
 
 .text-form {
@@ -249,4 +255,90 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.bottom-title-div {
+    width: 565px;
+}
+
+.photos-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    width: 100%;
+    height: 395px;
+    background-color: #121212;
+}
+
+.footer-div {
+    width: 1088px;
+    height: 260px;
+    margin: 0 auto;
+    
+}
+
+.footer-logo {
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: white;
+    padding-top: 95px;
+}
+
+
+.right-div-footer {
+  display: inline-block;
+}
+
+.footer-text {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #B1B1B1;
+    width: 260px;
+    margin-top: 25px;
+    
+}
+
+.small-logo {
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.footer-last-text {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #B1B1B1;  
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.marian {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #5863F8; 
+}
+
+.footer-title {
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: white;
+    padding-top: 95px;
+    display: inline-block;
+    margin-right: 75px;
+}
+
+.footer-list {
+   height: 155px;
+   display: inline-block;
+}
+
+.website {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #5863F8;  
+    display: inline-block;
+
 }
