@@ -290,6 +290,7 @@ footer {
 
 .right-div-footer {
   display: inline-block;
+  margin-right: 210px;
 }
 
 .footer-text {
@@ -325,14 +326,14 @@ footer {
     font-family: 'Poppins';
     font-size: 18px;
     color: white;
-    padding-top: 95px;
     display: inline-block;
     margin-right: 75px;
+    margin-top: 95px;
 }
 
 .footer-list {
-   height: 155px;
    display: inline-block;
+  
 }
 
 .website {
@@ -340,5 +341,6 @@ footer {
     font-size: 14px;
     color: #5863F8;  
     display: inline-block;
+    margin-left: 355px;
 
 }
