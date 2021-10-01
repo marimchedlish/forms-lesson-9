@@ -1,1 +1,29 @@
-.
+@media (max-width: 1088px) {
+    .map {
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    .map-div {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .nav-ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+
+    }
+
+    //*
+
+    .navigation-div {
+        display: inline-block;
+        
+     
+    }
+} *//
