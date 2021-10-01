@@ -1,24 +1,34 @@
-.header-div {
+header {
     background-image: url('../images/Group65.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+    background-size: cover; 
     height: 324px;
-    position: relative;
+    width: 100%;
+}
+.header-div {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1088px;
+    
+}
+
+.right-header-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .p-logo {
-    margin-left: 140px;
     margin-top: 40px;
     color: white;
-    position: absolute;
     font-family: 'Poppins';
     font-weight: bolder;
+    margin-bottom: 115px;
 }
 
 .nav-ul {
-    position: absolute;
-    right: 140px;
+    margin-top: 40px;
     top: 40px;
     width: 565px;
     display: flex;
@@ -34,9 +44,6 @@
 h2 {
     color: white;
     font-weight: bolder;
-    position: absolute;
-    left: 140px;
-    top: 145px;
     font-size: 56px;
     font-family: 'Poppins';
 }
@@ -44,33 +51,30 @@ h2 {
 .header-bottom-text1 {
     color: white;
     font-weight: bolder;
-    position: absolute;
-    top: 205px;
-    left: 140px;
+    display: inline-block;
     width: 45px;
-    margin-top: 30px;
     font-family: 'Poppins';
+    margin-top: 40px;
+    margin-right: 40px;
+    
 }
 
 .header-bottom-text2 {
     color: white;
     font-weight: bolder;
-    position: absolute;
-    top: 205px;
-    left: 215px;
     width: 57px;
-    margin-top: 30px;
     font-family: 'Poppins';
+    display: inline-block;
+    margin-top: 40px;
 }
 
 .line-div {
     background-color: white;
     width: 1px;
     height: 19px;
-    position: absolute;
-    top: 205px;
-    left: 200px;
-    margin-top: 30px;
+    display: inline-block;
+    margin-right: 40px;
+    vertical-align: middle;
 }
 
 .map-div {
@@ -357,4 +361,25 @@ footer {
 .footer-div-column {
     display: inline-block;
     margin: 0 auto;
+}
+
+.ul-ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.ul-li {  
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: #5863F8; 
+    margin-bottom: 10px;  
+}
+
+.la {
+    color: white;
+}
+
+.logo1 {
+    color: #5863F8;
+    margin-right: 7px;
 }
