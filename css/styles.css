@@ -272,11 +272,19 @@ footer {
     background-color: #121212;
 }
 
+.main-footer-div {
+    width: 1088px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
 .footer-div {
     width: 1088px;
     height: 260px;
     margin: 0 auto;
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-logo {
@@ -329,6 +337,7 @@ footer {
     display: inline-block;
     margin-right: 75px;
     margin-top: 95px;
+    height: 18px;
 }
 
 .footer-list {
@@ -343,4 +352,9 @@ footer {
     display: inline-block;
     margin-left: 355px;
 
+}
+
+.footer-div-column {
+    display: inline-block;
+    margin: 0 auto;
 }
