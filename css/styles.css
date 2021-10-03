@@ -9,7 +9,8 @@ header {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    width: 1088px;
+    max-width: 1088px;
+    width: 100%;
     
 }
 
@@ -78,7 +79,8 @@ h2 {
 }
 
 .map-div {
-    width: 1088px;
+    max-width: 1088px;
+    width: 100%;
     height: 286px;
     margin: 0 auto;
     margin-top: 50px;
@@ -91,7 +93,8 @@ h2 {
 }
 
 section {
-    width: 1088px;
+    max-width: 1088px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 56px;
 
@@ -103,6 +106,7 @@ section {
     font-weight: bold;
     margin-bottom: 25px;
     font-family: 'Poppins';
+    max-width: 200px;
 }
 
 .p-text {
@@ -284,7 +288,8 @@ footer {
 }
 
 .footer-div {
-    width: 1088px;
+    max-width: 1088px;
+    width: 100%;
     height: 260px;
     margin: 0 auto;
     display: flex;
@@ -361,6 +366,7 @@ footer {
 .footer-div-column {
     display: inline-block;
     margin: 0 auto;
+    width: 100%;
 }
 
 .ul-ul {
@@ -382,4 +388,9 @@ footer {
 .logo1 {
     color: #5863F8;
     margin-right: 7px;
+}
+
+.navigation-div {
+    display: inline-block;
+    height: 150px;
 }

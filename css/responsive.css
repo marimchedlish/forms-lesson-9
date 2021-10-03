@@ -19,11 +19,8 @@
 
     }
 
-    //*
-
     .navigation-div {
-        display: inline-block;
-        
-     
+        margin-left: 400px;
+        width: 100%;
     }
-} *//
+}
