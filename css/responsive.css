@@ -9,6 +9,7 @@
         max-width: 800px;
         margin: 0 auto;
         margin-top: 50px;
+        justify-content: center;
     }
 
     .nav-ul {
@@ -20,7 +21,42 @@
     }
 
     .navigation-div {
-        margin-left: 400px;
-        width: 100%;
+        margin-right: 30px;
+
     }
+
+    .formclass {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .website {
+        margin-left: 250px;
+    }
+
+    .input-name {
+      width: 250px;
+    }
+
+    .input-surname {
+        width: 250px;
+      }
+      
+    .input-mail {
+        width: 250px;
+      }
+      .bttn {
+        width: 250px;
+      }
+    .input-div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .textarea-div {
+        margin: 0 auto;
+    }
+
 }

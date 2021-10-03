@@ -87,7 +87,7 @@ h2 {
 }
 
 .map {
-    width: 1088px;
+    max-width: 1088px;
     height: 286px;
     margin: 0 auto;
 }
@@ -281,7 +281,7 @@ footer {
 }
 
 .main-footer-div {
-    width: 1088px;
+    max-width: 1088px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -393,4 +393,8 @@ footer {
 .navigation-div {
     display: inline-block;
     height: 150px;
+}
+
+nav {
+    display: inline-block;
 }
