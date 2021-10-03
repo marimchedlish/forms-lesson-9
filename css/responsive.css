@@ -57,6 +57,29 @@
 
     .textarea-div {
         margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .top-title-div {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;
+ 
+    }
+
+    .p-contact {
+        margin: 0 auto;
+    }
+    
+    .p-text {
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .bottom-title-div {
+        width: 100%;
+        text-align: center;
     }
 
 }
